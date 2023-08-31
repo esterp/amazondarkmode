@@ -1,0 +1,34 @@
+/* CSS rules that are part of the ARC browser boost (Amazon Dark Mode): https://arc.net/boost/DD8B951C-C75D-4F95-BB3A-69F68F4BBB9E */
+
+#nav-cover {
+    background-color: #ffffff !important;
+}
+
+#nav-belt {
+    filter: invert(100%);
+}
+
+.icp-nav-flag {
+    filter: invert(100%);
+}
+
+.icp-flag-3 {
+    filter: invert(100%);
+}
+
+.nav-cart-icon {
+    filter: invert(100%);
+}
+
+#nav-logo-sprites {
+    filter: invert(100%);
+}
+
+.navLeftFooter {
+    filter: invert(100%);
+}
+
+
+#accountMenu-container #accountMenu-canvas-background.hmenu-dark-bkg-color,#accountMenu-container #hmenu-canvas-background.hmenu-dark-bkg-color,#hmenu-container #accountMenu-canvas-background.hmenu-dark-bkg-color,#hmenu-container #hmenu-canvas-background.hmenu-dark-bkg-color {
+    background-color: rgb(254 254 254 / 80%)  !important;
+}
