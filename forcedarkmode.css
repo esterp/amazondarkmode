@@ -1,34 +1,36 @@
-/* CSS rules that are part of the ARC browser boost (Amazon Dark Mode): https://arc.net/boost/DD8B951C-C75D-4F95-BB3A-69F68F4BBB9E */
-
 #nav-cover {
     background-color: #ffffff !important;
 }
 
 #nav-belt {
+    background-color: #201c1c !important;
     filter: invert(100%);
 }
 
-.icp-nav-flag {
+#nav-main {
+    background-color: #424242 !important;
+    filter: invert(100%);
+}
+.navLeftFooter {
+    background-color: #040018 !important;
     filter: invert(100%);
 }
 
-.icp-flag-3 {
-    filter: invert(100%);
+#accountMenu-container #accountMenu-canvas-background.hmenu-dark-bkg-color,
+#accountMenu-container #hmenu-canvas-background.hmenu-dark-bkg-color,
+#hmenu-container #accountMenu-canvas-background.hmenu-dark-bkg-color,
+#hmenu-container #hmenu-canvas-background.hmenu-dark-bkg-color {
+    background-color: rgb(254 254 254 / 80%)  !important;
 }
 
-.nav-cart-icon {
-    filter: invert(100%);
-}
-
+.icp-nav-flag,
+.icp-flag-3,
+.nav-cart-icon,
+.navFooterBackToTop,
+#nav-logo,
+.nav-logo-base,
+.nav-sprite,
 #nav-logo-sprites {
     filter: invert(100%);
 }
 
-.navLeftFooter {
-    filter: invert(100%);
-}
-
-
-#accountMenu-container #accountMenu-canvas-background.hmenu-dark-bkg-color,#accountMenu-container #hmenu-canvas-background.hmenu-dark-bkg-color,#hmenu-container #accountMenu-canvas-background.hmenu-dark-bkg-color,#hmenu-container #hmenu-canvas-background.hmenu-dark-bkg-color {
-    background-color: rgb(254 254 254 / 80%)  !important;
-}
